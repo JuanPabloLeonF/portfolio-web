@@ -20,11 +20,11 @@ export const listProjects: TypeProject[] = [
         urlDemo: "https://juanpabloleonf.github.io/project-tecnica/",
         tecnologiesList: [
             {
-                urlImg: "/images/react.svg",
+                urlImg: "images/react.svg",
                 name: "react"
             },
             {
-                urlImg: "/images/css.svg",
+                urlImg: "images/css.svg",
                 name: "css"
             },
             {
@@ -32,7 +32,7 @@ export const listProjects: TypeProject[] = [
                 name: "javascript"
             }
         ],
-        urlImg: "/images/proyecto-tecnica.png"
+        urlImg: "images/proyecto-tecnica.png"
     },
     {
         title: "Maquetacion web",
@@ -41,14 +41,14 @@ export const listProjects: TypeProject[] = [
         urlDemo: "https://juanpabloleonf.github.io/aprendiendo-responsive/",
         tecnologiesList: [
             {
-                urlImg: "/images/html.svg",
+                urlImg: "images/html.svg",
                 name: "html"
             },
             {
-                urlImg: "/images/css.svg",
+                urlImg: "images/css.svg",
                 name: "css"
             }
         ],
-        urlImg: "/images/maquetacion.png"
+        urlImg: "images/maquetacion.png"
     },
 ]
