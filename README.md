@@ -24,6 +24,16 @@ Un portfolio web moderno y profesional desarrollado con React, TypeScript y Vite
 - **HTTP Client**: Axios 1.8.4
 - **Linting**: ESLint 9.22.0
 
+## ⚙️ CI/CD
+
+Este proyecto cuenta con integración continua y despliegue continuo (CI/CD) usando **GitHub Actions**. En cada push o pull request a la rama `main`, automáticamente se:
+
+- Instalan dependencias
+- Construye la aplicación (build)
+- Despliega el contenido de la carpeta `dist/` a GitHub Pages usando la rama `gh-pages`
+
+El flujo está definido en `.github/workflows/deploy.yml`. ¡No necesitas hacer nada manualmente para publicar cambios!
+
 ## 📦 Instalación
 
 1. Clona el repositorio:
