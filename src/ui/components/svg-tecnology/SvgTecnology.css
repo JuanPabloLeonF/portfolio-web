@@ -1,0 +1,17 @@
+.div {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--alpha-color);
+    backdrop-filter: blur(20px);
+}
+
+.div img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}

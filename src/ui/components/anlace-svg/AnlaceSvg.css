@@ -1,0 +1,31 @@
+.container-img-social {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 100%;
+  border: 2px solid var(--color-social-primary);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, var(--color-social-primary) 0%, var(--color-social-primary) 100%);
+  background-size: 100% 0%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  transition: background-size 0.5s ease-in-out;
+  margin-top: 1rem;
+}
+
+.container-img-social:hover {
+  background-size: 100% 100%;
+}
+
+.container-img-social > i {
+  color: var(--color-social-primary);
+  font-size: 1.5rem;
+  transition: color 0.5s ease-in-out;
+}
+
+.container-img-social:hover > i {
+  color: var(--white-color);
+}

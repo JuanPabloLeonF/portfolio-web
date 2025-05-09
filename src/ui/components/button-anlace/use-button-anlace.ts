@@ -1,0 +1,40 @@
+import { useState } from "react";
+import pdfVidaHoja from "/pdfs/vide-hoja.pdf"
+
+export const useButtonAnlace = () => {
+    const [activateStylesButton, setActivateStylesButton] = useState(false);
+    const [activateStylesLink, setActivateStylesLink] = useState(false);
+
+    const handlerViewPDF = () => {
+        globalThis.open(pdfVidaHoja, '_blank');
+    }
+
+    const onScrollToTarget = () => {
+        const contactContainer = document.querySelector<HTMLDivElement>('#container-about-information');
+        contactContainer?.scrollIntoView({ behavior: 'smooth' });
+    };
+    
+    const onHover = (isHovered: boolean, element: string) => {
+        if (isHovered) {
+            if (element === 'button') {
+            setActivateStylesLink(true);
+            } else if (element === 'link') {
+            setActivateStylesButton(true);
+            }
+        } else {
+            if (element === 'button') {
+            setActivateStylesLink(false);
+            } else if (element === 'link') {
+            setActivateStylesButton(false);
+            }
+        }
+    };
+
+    return {
+        activateStylesButton,
+        activateStylesLink,
+        onHover,
+        handlerViewPDF,
+        onScrollToTarget
+    }
+}

@@ -1,0 +1,76 @@
+.container-main {
+    width: 100%;
+    height: 100%;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-description {
+    width: 65%;
+    height: 70%;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    background-color: var(--alpha-color);
+    backdrop-filter: var(--blur-bg);
+}
+
+.container-description h1 {
+    font-family: var(--font-family-cleanow);
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.2;
+}
+
+.container-description h2 {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+.container-description p {
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+    width: 80%;
+    height: 6.5rem;
+    line-height: 1.2;
+}
+
+.container-description .contaner-buttons {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container-social {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    justify-content: start;
+}
+
+@media screen and (width < 768px) {
+    
+    .container-main {
+        width: 100%;
+        height: 45rem;
+        margin: 0;
+    }
+
+    .container-description {
+        width: 100%;
+        gap: 1.5rem;
+    }
+
+    .container-description p {
+        width: 100%;
+        height: 4rem;
+    }
+}
