@@ -105,7 +105,7 @@ body {
   position: relative;
   width: 100vw;
   height: auto;
-  background-image: url("images/f3.webp");
+  background-image: url("/images/f3.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
