@@ -21,7 +21,7 @@ export const SectionInit: React.FC = () => {
         <div className="container-social">
           <AnlaceSvg link="https://www.linkedin.com/in/juanpabloleónf/" title="Linkedin" icon='fab fa-linkedin-in' />
           <AnlaceSvg link="https://github.com/juanpabloleonF" title="Github" icon='fab fa-github' />
-          <ImgPerfil img="/images/img-perfil.webp" title="Perfil" />
+          <ImgPerfil img="images/img-perfil.webp" title="Perfil" />
         </div>
       </section>
     </div>
