@@ -10,7 +10,6 @@ export const Header: React.FC = () => {
     handleActivateMenuTheme, 
     handleActivateMenuBurguer,  
     handleChangeTypeTheme,
-    isActive
   } = useHeader();
 
   return (
