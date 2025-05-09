@@ -14,7 +14,6 @@ const initialImages = [
   "images/vainillawebcurso.png"
 ];
 
-
 export const  SectionAbout = () => {
 
   const [images, setImages] = useState(initialImages.slice(0, 4));

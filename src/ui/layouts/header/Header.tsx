@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
         <div onClick={() => handleActivateMenuTheme(!activateMenu)} className="container-mod-theme">
           <img
             className={`theme-${typeMod === typeTheme.light ? 'light' : 'dark'}`}
-            src={typeMod === typeTheme.dark ? '/images/sun.svg' : '/images/moon.svg'}
+            src={typeMod === typeTheme.dark ? 'images/sun.svg' : 'images/moon.svg'}
             alt="Cambiar tema"
           />
           <div className={`container-themes ${activateMenu ? 'activate' : ''}`}>
@@ -57,7 +57,7 @@ export const Header: React.FC = () => {
         <div onClick={() => handleActivateMenuTheme(!activateMenu)} className="container-mod-theme">
           <img
             className={`theme-${typeMod === typeTheme.light ? 'light' : 'dark'}`}
-            src={typeMod === typeTheme.dark ? '/images/sun.svg' : '/images/moon.svg'}
+            src={typeMod === typeTheme.dark ? 'images/sun.svg' : 'images/moon.svg'}
             alt="Cambiar tema"
           />
           <div className={`container-themes ${activateMenu ? 'activate' : ''}`}>
@@ -70,7 +70,7 @@ export const Header: React.FC = () => {
       <div onClick={() => handleActivateMenuBurguer(!activateMenuBurguer)} className="container-img-menu">
         <img
           className={`theme-${typeMod === typeTheme.light ? 'light' : 'dark'}`}
-          src="/images/menu.svg"
+          src="images/menu.svg"
           alt="Menu"
         />
       </div>
