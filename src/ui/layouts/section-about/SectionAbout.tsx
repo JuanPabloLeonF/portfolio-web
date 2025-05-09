@@ -52,7 +52,7 @@ export const  SectionAbout = () => {
     <section id='about' className="about">
       <div className="container-about-main">
         <div className="container-img-about">
-          <img src="/images/img-perfil.webp" alt="Foto de perfil" />
+          <img src="images/img-perfil.webp" alt="Foto de perfil" />
         </div>
         <div className="contaner-title-about">
           <div className="container-title">
