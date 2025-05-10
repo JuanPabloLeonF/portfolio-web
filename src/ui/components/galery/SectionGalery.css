@@ -46,12 +46,12 @@
 }
 
 .container-galery .container-buttons-galery {
-    width: 20%;
+    width: 80%;
     height: 5%;
     position: absolute;
-    bottom: 1rem;
+    bottom: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(-50%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -62,4 +62,11 @@
 .container-galery .container-buttons-galery > i:hover {
     cursor: pointer;
     color: var(--secondary-color);
+}
+
+@media screen and (width < 768px) {
+    .container-galery .container-buttons-galery {
+        width: 30%;
+        bottom: 5%;
+    }
 }
