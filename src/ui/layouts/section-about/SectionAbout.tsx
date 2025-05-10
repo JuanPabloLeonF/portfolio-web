@@ -62,7 +62,7 @@ export const  SectionAbout = () => {
             </p>
           </div>
           <div className="container-buttons">
-            <ButtonAnlace hrefAnlace='#contact' titleButton='¿Quién soy?' titleAnlace='Contactame' />
+            <ButtonAnlace titleButton='¿Quién soy?' titleAnlace='Contactame' />
           </div>
         </div>
       </div>

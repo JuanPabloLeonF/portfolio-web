@@ -9,8 +9,8 @@ export const useButtonAnlace = () => {
         globalThis.open(pdfVidaHoja, '_blank');
     }
 
-    const onScrollToTarget = () => {
-        const contactContainer = document.querySelector<HTMLDivElement>('#container-about-information');
+    const onScrollToTarget = (target: string) => {
+        const contactContainer = document.querySelector<HTMLDivElement>(target);
         contactContainer?.scrollIntoView({ behavior: 'smooth' });
     };
     

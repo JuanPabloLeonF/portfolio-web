@@ -15,8 +15,8 @@ export const SectionInit: React.FC = () => {
         <p>
           Desarrollador web apasionado con experiencia en <strong className="strong-color">backend</strong> (<strong className="strong-color">Python</strong>, <strong className="strong-color">Flask</strong>, <strong className="strong-color">FastAPI</strong>) y <strong className="strong-color">frontend</strong> (<strong className="strong-color">React</strong>, <strong className="strong-color">Angular</strong>). Especializado en <strong className="strong-color">APIs REST</strong>, bases de datos (<strong className="strong-color">PostgreSQL</strong>, <strong className="strong-color">MySQL</strong>, <strong className="strong-color">MongoDB</strong>) y soluciones eficientes con <strong className="strong-color">Docker</strong> y <strong className="strong-color">arquitectura hexagonal</strong>.
         </p>
-        <div className="contaner-buttons">
-          <ButtonAnlace titleButton="Descargar CV" titleAnlace="Contactame" hrefAnlace="#contact" />
+        <div className="container-buttons">
+          <ButtonAnlace titleButton="Descargar CV" titleAnlace="Contactame"/>
         </div>
         <div className="container-social">
           <AnlaceSvg link="https://www.linkedin.com/in/juanpabloleónf/" title="Linkedin" icon='fab fa-linkedin-in' />
