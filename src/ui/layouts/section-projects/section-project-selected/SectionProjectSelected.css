@@ -110,6 +110,12 @@
         height: 15rem;
     }
     
+    .container-selected-project-2 .container-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
     .container-selected-project-2 .container-information {
         width: 100%;
         height: 100%;
