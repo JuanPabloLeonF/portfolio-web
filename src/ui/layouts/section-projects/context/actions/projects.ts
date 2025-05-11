@@ -14,6 +14,13 @@ export class ActionsProjects {
 
   public static setHandlerFilterListProjects = (listProjects: TypeProject[], data: TypeTecnology): ProjectAction => {
 
+    if (data.name === 'Todos') {
+      return {
+        type: EnumEnviromentsProjectsReducer.SET_FILTERED_LIST_PROJECTS_BY_TECNOLOGY_SELECTED,
+        payload: listProjects
+      }
+    } 
+    
     const listFiltered: TypeProject[] = listProjects.filter(project =>
       project.tecnologiesList.some(
         tecnology => tecnology.name.toLowerCase() === data.name.toLowerCase()

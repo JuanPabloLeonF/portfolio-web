@@ -6,6 +6,11 @@ export interface TypeTecnology {
 
 export const tecnologies: TypeTecnology[] = [
     {
+        name: 'Todos',
+        color: '#ffffff',
+        urlImg: 'images/all.svg'
+    },
+    {
         name: 'Python',
         color: '#FFD700',
         urlImg: 'images/python.svg'

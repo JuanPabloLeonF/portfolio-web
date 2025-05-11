@@ -34,6 +34,8 @@ export const SvgTecnology: React.FC<SvgTecnologyProps> = ({ data, dataSelected, 
 
   return (
     <div
+      aria-label={data.name}
+      title={data.name}
       className="div"
       ref={divRef}
       onClick={handleSelectData}
