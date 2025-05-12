@@ -56,16 +56,6 @@ export const tecnologies: TypeTecnology[] = [
         urlImg: 'images/docker.svg'
     },
     {
-        name: 'Git',
-        color: '#F05032',
-        urlImg: 'images/git.svg'
-    },
-    {
-        name: 'GitHub',
-        color: '#181717',
-        urlImg: 'images/github-svg.svg'
-    },
-    {
         name: 'MySQL',
         color: '#4479A1',
         urlImg: 'images/mysql.svg'
