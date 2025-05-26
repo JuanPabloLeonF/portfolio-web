@@ -1,5 +1,5 @@
 import { useState } from "react";
-import pdfVidaHoja from "/pdfs/vide-hoja.pdf"
+import pdfVidaHoja from "/pdfs/hoja-vida.pdf"
 
 export const useButtonAnlace = () => {
     const [activateStylesButton, setActivateStylesButton] = useState(false);
