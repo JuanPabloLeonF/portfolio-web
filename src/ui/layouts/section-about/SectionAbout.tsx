@@ -5,6 +5,7 @@ import { SectionGalery } from "../../components/galery/SectionGalery";
 
 const initialImages = [
   "images/tecnologo.png",
+  "images/certificado-talentotech.png",
   "images/angularcurso.png",
   "images/gitgithubcurso.png",
   "images/mongodb-curso.png",
