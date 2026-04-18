@@ -11,11 +11,6 @@ export const tecnologies: TypeTecnology[] = [
         urlImg: 'images/all.svg'
     },
     {
-        name: 'Python',
-        color: '#FFD700',
-        urlImg: 'images/python.svg'
-    },
-    {
         name: 'HTML',
         color: '#E34F16',
         urlImg: 'images/html.svg'
@@ -46,33 +41,33 @@ export const tecnologies: TypeTecnology[] = [
         urlImg: 'images/typescript.svg'
     },
     {
-        name: 'Flask',
-        color: '#19610a',
-        urlImg: 'images/flask.svg'
+        name: 'Java',
+        color: '#ffffff',
+        urlImg: 'images/java.svg'
     },
-    {
-        name: 'Docker',
-        color: '#2496ED',
-        urlImg: 'images/docker.svg'
-    },
-    {
-        name: 'MySQL',
-        color: '#4479A1',
-        urlImg: 'images/mysql.svg'
-    },
-    {
-        name: 'MongoDB',
-        color: '#47A248',
-        urlImg: 'images/mongo.svg'
-    },
-    {
-        name: 'Postgresql',
-        color: '#336791',
-        urlImg: 'images/postgresql.svg'
-    },
-    {
-        name: 'Kubernetes',
-        color: '#326CE5',
-        urlImg: 'images/kubernetes.svg'
-    }
+    // {
+    //     name: 'Docker',
+    //     color: '#2496ED',
+    //     urlImg: 'images/docker.svg'
+    // },
+    // {
+    //     name: 'MySQL',
+    //     color: '#4479A1',
+    //     urlImg: 'images/mysql.svg'
+    // },
+    // {
+    //     name: 'MongoDB',
+    //     color: '#47A248',
+    //     urlImg: 'images/mongo.svg'
+    // },
+    // {
+    //     name: 'Postgresql',
+    //     color: '#336791',
+    //     urlImg: 'images/postgresql.svg'
+    // },
+    // {
+    //     name: 'Kubernetes',
+    //     color: '#326CE5',
+    //     urlImg: 'images/kubernetes.svg'
+    // }
 ]

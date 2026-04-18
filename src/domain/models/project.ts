@@ -93,4 +93,25 @@ export const listProjects: TypeProject[] = [
         ],
         urlImg: "images/juego-academico.png"
     },
+    {
+        title: "Inventario de supermercado - Sistema Backend",
+        description: "(PROYECTO AUN EN DESARROLLO) Backend en Java para un sistema de inventario de supermercado. En el estado actual implementa el módulo de usuarios con operaciones de consulta (lectura) y alta de usuario (creación), siguiendo una arquitectura en capas alineada con Clean Architecture y un patrón de mediador inspirado en CQRS para el desacoplamiento entre la capa web y la lógica de aplicación.",
+        urlRepositoryGit: "https://github.com/JuanPabloLeonF/backend-supermarket-inventory",
+        urlDemo: "https://github.com/JuanPabloLeonF/backend-supermarket-inventory",
+        tecnologiesList: [
+            {
+                urlImg: "images/postgresql.svg",
+                name: "postgresql"
+            },
+            {
+                urlImg: "images/spring-boot.svg",
+                name: "springboot"
+            },
+            {
+                urlImg: "images/java.svg",
+                name: "java"
+            }
+        ],
+        urlImg: "images/java.svg"
+    },
 ]

@@ -76,7 +76,7 @@ export const  SectionAbout = () => {
             </p>
 
             <p>
-              En el ámbito del backend, poseo conocimiento de <strong className="strong-color">Python</strong> y sus frameworks <strong className="strong-color">Flask</strong> y <strong className="strong-color">FastAPI</strong>, lo que me permite construir APIs REST robustas y eficientes, utilizando <strong className="strong-color">JWT</strong> para la autenticación y autorización. Mi experiencia se extiende a la gestión de bases de datos relacionales como <strong className="strong-color">PostgreSQL</strong> y <strong className="strong-color">MySQL</strong>, así como bases de datos NoSQL como <strong className="strong-color">MongoDB</strong>. Además, estoy familiarizado con los principios de programación asíncrona, lo que me permite optimizar el rendimiento de las aplicaciones.
+              En el ámbito del backend, poseo conocimiento de <strong className="strong-color">Java</strong> y su framework <strong className="strong-color">SpringBoot</strong>, lo que me permite construir APIs REST robustas y eficientes, utilizando <strong className="strong-color">JWT</strong> para la autenticación y autorización. Mi experiencia se extiende a la gestión de bases de datos relacionales como <strong className="strong-color">PostgreSQL</strong> y <strong className="strong-color">MySQL</strong>, así como bases de datos NoSQL como <strong className="strong-color">MongoDB</strong>. Además, estoy familiarizado con los principios de programación asíncrona, lo que me permite optimizar el rendimiento de las aplicaciones.
             </p>
 
             <p>
